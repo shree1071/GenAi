@@ -30,7 +30,7 @@ const pressStart2P = Press_Start_2P({
 export const metadata: Metadata = {
   title: "GenAi",
   description:
-    "BrinHack 2025: Innovate Beyond Boundaries! Join the 24-hour hackathon.",
+    "GenAi : Pioneering the future of artificial intelligence. Explore, innovate, and build." ,
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },

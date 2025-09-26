@@ -15,6 +15,11 @@ interface Team {
   satelliteType: string;
 }
 
+interface Track {
+  id: number;
+  name: string;
+}
+
 // Track badge map
 const trackBadges = {
   IoT: "IoT",
@@ -182,12 +187,12 @@ const Final2025 = () => {
     setIsFilterOpen(false); // Close dropdown after selection
   };
 
-  const uniqueTracks = teamsData.teams.reduce((acc, team, index) => {
+  const uniqueTracks = teamsData.teams.reduce((acc: Track[], team, index) => {
     if (!acc.find((t) => t.name === team.track)) {
       acc.push({ id: index, name: team.track });
     }
     return acc;
-  }, []);
+  }, []); // Explicitly type the initial value as Track[]
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-[#000000] via-[#05051a] to-[#0a0b25] text-white py-10 sm:py-16 px-3 sm:px-4 md:px-6 relative overflow-hidden">
@@ -431,8 +436,8 @@ const Final2025 = () => {
 
                   {uniqueTracks.map((track, index) => (
                     <motion.div
-                      key={track.id} // Use the unique ID
-                      onClick={() => handleFilterClick(track.name)}
+                      key={`${track}-${index}`} // Combine track name with index
+                      onClick={() => handleFilterClick(track)}
                       className="px-4 py-2 text-gray-300 hover:bg-gray-800/80 cursor-pointer flex items-center justify-between"
                       whileHover={{
                         backgroundColor: "rgba(31, 41, 55, 0.8)",
