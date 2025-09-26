@@ -187,12 +187,18 @@ const Final2025 = () => {
     setIsFilterOpen(false); // Close dropdown after selection
   };
 
+<<<<<<< HEAD
   const uniqueTracks = teamsData.teams.reduce((acc: Track[], team, index) => {
     if (!acc.find((t) => t.name === team.track)) {
       acc.push({ id: index, name: team.track });
     }
     return acc;
   }, []); // Explicitly type the initial value as Track[]
+=======
+  const uniqueTracks = Array.from(
+    new Set(teamsData.teams.map((team) => team.track))
+  );
+>>>>>>> 5f94890a1326dcf77a527321f160a52bd1b4930f
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-[#000000] via-[#05051a] to-[#0a0b25] text-white py-10 sm:py-16 px-3 sm:px-4 md:px-6 relative overflow-hidden">
@@ -434,9 +440,13 @@ const Final2025 = () => {
                     )}
                   </div>
 
-                  {uniqueTracks.map((track, index) => (
+                  {uniqueTracks.map((track) => (
                     <motion.div
+<<<<<<< HEAD
                       key={`${track}-${index}`} // Combine track name with index
+=======
+                      key={track}
+>>>>>>> 5f94890a1326dcf77a527321f160a52bd1b4930f
                       onClick={() => handleFilterClick(track)}
                       className="px-4 py-2 text-gray-300 hover:bg-gray-800/80 cursor-pointer flex items-center justify-between"
                       whileHover={{
@@ -445,16 +455,16 @@ const Final2025 = () => {
                       }}
                     >
                       <div className="flex items-center">
-                        <span className="mr-2">{track.name}</span>
+                        <span className="mr-2">{track}</span>
                         <div
                           className={`${
-                            trackColors[track.name as keyof typeof trackColors]
+                            trackColors[track as keyof typeof trackColors]
                           } px-1.5 py-0.5 text-xs rounded-md border inline-flex items-center`}
                         >
-                          {trackBadges[track.name as keyof typeof trackBadges]}
+                          {trackBadges[track as keyof typeof trackBadges]}
                         </div>
                       </div>
-                      {activeFilter === track.name && (
+                      {activeFilter === track && (
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           className="h-4 w-4 text-green-400"
