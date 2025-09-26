@@ -598,7 +598,7 @@ const AboutSection: React.FC = () => {
                   role="Assistant Professor CSE department"
                   quote="Innovation is the ability to see change as an opportunity."
                   imageUrl="/team/hodic.webp"
-                  pokemonId={6}
+                  pokemonId={9}
                 />
 
                 {/* Event Lead Card */}
