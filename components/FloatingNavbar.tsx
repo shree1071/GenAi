@@ -32,24 +32,7 @@ const navItems = [
 // Define extras navigation items separately
 const extrasItems = [
   {
-    name: "Selected Teams",
-    desc: "Finalists list",
-    href: "/final2025",
-    icon: (
-      <Image
-        src="/s1n.png"
-        alt="Finalists Teams"
-        width={20}
-        height={20}
-        className="object-contain"
-      />
-    ),
-    bgColor: "bg-purple-900/50",
-    borderColor: "border-purple-500/50",
-    textColor: "text-cyan-300",
-  },
-  {
-    name: "Volunteer Squad",
+    name: "Club Members",
     desc: "Meet our team",
     href: "/volunteers",
     icon: (
@@ -201,6 +184,8 @@ const FloatingNavbar: React.FC<FloatingNavbarProps> = ({ showLogo }) => {
                 className="flex items-center group hover:scale-105 transition-transform duration-300"
                 aria-label="Back to top"
               >
+                {/* Remove the BrinHack image */}
+                {/*
                 <div className="h-8 w-8 md:h-10 md:w-10 relative overflow-hidden rounded-lg group-hover:shadow-md group-hover:shadow-blue-400/30 transition-shadow duration-300">
                   <div className="absolute inset-0" />
                   <Image
@@ -211,6 +196,9 @@ const FloatingNavbar: React.FC<FloatingNavbarProps> = ({ showLogo }) => {
                     className="object-contain w-full h-full relative z-10"
                   />
                 </div>
+                */}
+                {/* Remove the BrinHack text */}
+                {/*
                 <span className="text-white font-major-mono ml-2 text-xs sm:text-sm transition-colors duration-300">
                   <span className="text-[#ff00c0] group-hover:text-pink-400">
                     Brin
@@ -219,6 +207,7 @@ const FloatingNavbar: React.FC<FloatingNavbarProps> = ({ showLogo }) => {
                     HAck
                   </span>
                 </span>
+                */}
               </a>
             </motion.div>
           </div>
@@ -307,6 +296,8 @@ const FloatingNavbar: React.FC<FloatingNavbarProps> = ({ showLogo }) => {
                       </h3>
                     </motion.div>
 
+                    {/* Commented out the Events button in dropdown menu */}
+                    {/*
                     <motion.div
                       variants={menuItemVariants}
                       initial="hidden"
@@ -327,13 +318,14 @@ const FloatingNavbar: React.FC<FloatingNavbarProps> = ({ showLogo }) => {
                           />
                         </div>
                         <div>
-                          <span className="text-cyan-300">Selected Teams</span>
+                          <span className="text-cyan-300">Events</span>
                           <p className="text-xs text-gray-400">
                             Finalists list
                           </p>
                         </div>
                       </Link>
                     </motion.div>
+                    */}
 
                     <motion.div
                       variants={menuItemVariants}
@@ -355,7 +347,7 @@ const FloatingNavbar: React.FC<FloatingNavbarProps> = ({ showLogo }) => {
                           />
                         </div>
                         <div>
-                          <span className="text-pink-300">Volunteer Squad</span>
+                          <span className="text-pink-300"></span>Club Members
                           <p className="text-xs text-gray-400">Meet our team</p>
                         </div>
                       </Link>

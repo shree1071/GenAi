@@ -929,7 +929,7 @@ const VolunteersPage = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.5 }}
           >
-            Meet the awesome volunteers who make BrinHack possible, each with
+            Meet the awesome members who make Gen Ai Club Possible, each with
             their own unique skills and Pokémon partner!
           </motion.p>
         </div>

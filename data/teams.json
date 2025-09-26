@@ -2,279 +2,35 @@
   "teams": [
     {
       "id": "team1",
-      "name": "TEAM NARMADA",
-      "leader": "B.SURYA",
-      "members": ["HARSHITHA.D", "V.KALYAN RAM"],
-      "track": "Sustainability",
+      "name": "AI/ML Workshop Series 2024",
+      "leader": "Prof. Ananya Sharma",
+      "members": ["120+ Students", "3 Days Duration", "BMSIT Lab 301"],
+      "track": "Technical Workshop",
       "satelliteType": "s1n"
     },
     {
       "id": "team2",
-      "name": "Namma Hackers",
-      "leader": "Rakesh B Sirvi",
-      "members": ["Sunil B Revannavar", "Shivatej S"],
-      "track": "Open Innovation",
+      "name": "Industry Talk - AI in FinTech",
+      "leader": "Dr. Rajesh Kumar",
+      "members": ["200+ Participants", "2 Hours Session", "BMSIT Auditorium"],
+      "track": "Expert Talk",
       "satelliteType": "s2n"
     },
     {
       "id": "team3",
-      "name": "Legions",
-      "leader": "Tharjun.S",
-      "members": ["Dileep", "Manoj.S", "Sanjay.N.S"],
-      "track": "IoT",
+      "name": "GenAI Hackathon 2024",
+      "leader": "Team Alpha",
+      "members": ["80+ Participants", "24 Hours", "BMSIT Main Campus"],
+      "track": "Hackathon",
       "satelliteType": "s4n"
     },
     {
       "id": "team4",
-      "name": "Tricode",
-      "leader": "Sirisha R",
-      "members": ["Basavana Gowda", "Rakshith N"],
-      "track": "Sustainability",
+      "name": "Student Project Showcase",
+      "leader": "CSE Department",
+      "members": ["50+ Projects", "Full Day Event", "Central Courtyard"],
+      "track": "Exhibition",
       "satelliteType": "s2n"
-    },
-    {
-      "id": "team5",
-      "name": "CTRL ALT INNOVATE",
-      "leader": "Divya R",
-      "members": ["Afreen Asif", "Ananya Salian", "Dharshini D"],
-      "track": "Open Innovation",
-      "satelliteType": "s4n"
-    },
-    {
-      "id": "team6",
-      "name": "ResQblock",
-      "leader": "Mahima gaonkar",
-      "members": ["Aishwarya Dubey", "Narmada H R", "Durga Kumari"],
-      "track": "IoT",
-      "satelliteType": "s2n"
-    },
-    {
-      "id": "team7",
-      "name": "Spintronics",
-      "leader": "J K ABHINAV",
-      "members": ["Tilak S Badami", "Sneha Kumari", "Ananya Bhat"],
-      "track": "IoT",
-      "satelliteType": "s1n"
-    },
-    {
-      "id": "team8",
-      "name": "Astral Aces",
-      "leader": "Dhanya Hegde",
-      "members": ["Usha Gowda", "Dheekshita Gouda", "Harshitha T.U"],
-      "track": "Open Innovation",
-      "satelliteType": "s2n"
-    },
-    {
-      "id": "team9",
-      "name": "KIRMAADA",
-      "leader": "Priyodip Mukhopadhyay",
-      "members": ["Bharat Kaushik", "Sreetam Kasta"],
-      "track": "Sustainability",
-      "satelliteType": "s4n"
-    },
-    {
-      "id": "team10",
-      "name": "CodePal ",
-      "leader": "Vaibhav Kumar ",
-      "members": ["Suresh M", "Vishal Bharadwaj", "Aneesha Mishra"],
-      "track": "Open Innovation",
-      "satelliteType": "s1n"
-    },
-    {
-      "id": "team11",
-      "name": "Newbie Nest",
-      "leader": "Shivam kumar",
-      "members": ["Amith Babu Rao", "Maitreyi Deshpande"],
-      "track": "Open Innovation",
-      "satelliteType": "s4n"
-    },
-    {
-      "id": "team12",
-      "name": "BRAINY FOOLS",
-      "leader": "Debarshi Maity",
-      "members": ["Sounak Pratihar", "Arghaneel Das", "Vignesh BG"],
-      "track": "Open Innovation",
-      "satelliteType": "s2n"
-    },
-    {
-      "id": "team13",
-      "name": "Code Fathers",
-      "leader": "Ravish Kumar",
-      "members": ["Mevish Fatima", "K N Navya", "Priyanshu Mehra"],
-      "track": "Sustainability",
-      "satelliteType": "s2n"
-    },
-    {
-      "id": "team14",
-      "name": "RedHat Squad",
-      "leader": "Arjun Pal",
-      "members": ["Koustubha", "Kareena U", "Tamanna Jadon"],
-      "track": "Open Innovation",
-      "satelliteType": "s4n"
-    },
-    {
-      "id": "team15",
-      "name": "STEGANO HOLMES",
-      "leader": "Mayank Raj Anand",
-      "members": ["Tanmay Ranjan", "Sharvari Adiga", "Arya R Dudalkar"],
-      "track": "CyberSecurity",
-      "satelliteType": "s2n"
-    },
-    {
-      "id": "team16",
-      "name": "CodeSquirt",
-      "leader": "Sameer singh",
-      "members": ["Sagnik Dass", "Mithun Gowda", "Nand Nandan Nangireddy"],
-      "track": "Open Innovation",
-      "satelliteType": "s1n"
-    },
-    {
-      "id": "team17",
-      "name": "CODDECK",
-      "leader": "Anushka Sarkar",
-      "members": ["Prajwal Rao D", "Aman Vikas AV", "Nikhil Raj B"],
-      "track": "Open Innovation",
-      "satelliteType": "s4n"
-    },
-    {
-      "id": "team18",
-      "name": "FarmZilla",
-      "leader": "Pavithra K Revankar",
-      "members": ["Thanuja N", "Rakshita A Naik", "Prathiksha P Mulgund"],
-      "track": "Open Innovation",
-      "satelliteType": "s1n"
-    },
-    {
-      "id": "team19",
-      "name": "CyberSentinels ",
-      "leader": "Parinith Gowda K",
-      "members": ["Nisarga R", "Narendra B M", "Priyanka M S"],
-      "track": "CyberSecurity",
-      "satelliteType": "s4n"
-    },
-    {
-      "id": "team20",
-      "name": "Crazy developers",
-      "leader": "Mahalakshmi J",
-      "members": ["Santhosh S", "Nisha yadav", "Saranya"],
-      "track": "Open Innovation",
-      "satelliteType": "s2n"
-    },
-    {
-      "id": "team21",
-      "name": "Code Alchemists",
-      "leader": "Turaga Krishna Kartheek",
-      "members": ["Nischitha N", "KP Suhas", "Datrish"],
-      "track": "IoT",
-      "satelliteType": "s1n"
-    },
-    {
-      "id": "team22",
-      "name": "Deadpool and wolverine",
-      "leader": "Sreekanth NM",
-      "members": ["Yashwanth DR", "Dhanush S"],
-      "track": "Open Innovation",
-      "satelliteType": "s2n"
-    },
-    {
-      "id": "team23",
-      "name": "Tech Crunch",
-      "leader": "Nidhin M",
-      "members": ["Ajay Nayak", "Farhaan RIyaz", "Purvaank Ramesh"],
-      "track": "Sustainability",
-      "satelliteType": "s4n"
-    },
-    {
-      "id": "team24",
-      "name": "neotec",
-      "leader": "Rahul sharma",
-      "members": ["Madhav yadav", "Kshitij Pandey", "punit rajput"],
-      "track": "Open Innovation",
-      "satelliteType": "s1n"
-    },
-    {
-      "id": "team25",
-      "name": "IGRIS",
-      "leader": "Syed Owais",
-      "members": ["Sparsh Gupta"],
-      "track": "Open Innovation",
-      "satelliteType": "s2n"
-    },
-    {
-      "id": "team26",
-      "name": "Byte Chain",
-      "leader": "Altamash Shaikh",
-      "members": ["YousufKhan Pathan", "Syed Khizer", "Syed Sadiq Ahamed"],
-      "track": "Blockchain",
-      "satelliteType": "s4n"
-    },
-    {
-      "id": "team27",
-      "name": "Money minds",
-      "leader": "Darsh vithlani",
-      "members": ["Shripad patil", "Swamil Choudhury"],
-      "track": "Open Innovation",
-      "satelliteType": "s2n"
-    },
-    {
-      "id": "team28",
-      "name": "CODE wAt",
-      "leader": "SINDHU.T",
-      "members": ["Madhusudhan.S", "Swaroop S", "Dipesh"],
-      "track": "Open Innovation",
-      "satelliteType": "s4n"
-    },
-    {
-      "id": "team29",
-      "name": "Tech Titans",
-      "leader": "Varshitha.C",
-      "members": ["Kumkum gayki", "Spoorthi", "Ankita jaiswal"],
-      "track": "Open Innovation",
-      "satelliteType": "s2n"
-    },
-    {
-      "id": "team30",
-      "name": "ADVAYA",
-      "leader": "Deekshith KS",
-      "members": [
-        "Darshan A M",
-        "Manoj S J",
-        "Dhanush bellary manjunath reddy"
-      ],
-      "track": "Open Innovation",
-      "satelliteType": "s1n"
-    },
-    {
-      "id": "team31",
-      "name": "CODE CRAFTERS",
-      "leader": "GAURAV KUMAR",
-      "members": ["ABHRANSHU AKASH", "AYUSH NIRALA", "SATWIK SINGH"],
-      "track": "Open Innovation",
-      "satelliteType": "s2n"
-    },
-    {
-      "id": "team32",
-      "name": "Tech Titans",
-      "leader": "Srihari R",
-      "members": ["S Sandeep Kumar", "Adarsha BV", "Manjunatha"],
-      "track": "CyberSecurity",
-      "satelliteType": "s1n"
-    },
-    {
-      "id": "team33",
-      "name": "The NOVA",
-      "leader": "SUmantha",
-      "members": ["Shreesha", "Omkar Prabhu", "Shreyas A"],
-      "track": "Sustainability",
-      "satelliteType": "s4n"
-    },
-    {
-      "id": "team34",
-      "name": "CodeBlue",
-      "leader": "Kavya BS",
-      "members": ["J Suhas", "Imthiyaz K", "Pooja M"],
-      "track": "Blockchain",
-      "satelliteType": "s1n"
     }
   ]
 }

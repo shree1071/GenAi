@@ -148,46 +148,47 @@ const HeroSection: React.FC<HeroSectionProps> = ({ showLogo = true }) => {
         <div className="container mx-auto flex flex-col items-center gap-12 text-center lg:flex-row lg:text-left pb-32">
           {/* Left Column: Text Content & Buttons */}
           <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start space-y-6">
+            {/* Update the title section */}
             <header className="w-full flex justify-center lg:justify-start py-6">
               <h1 className="text-4xl md:text-6xl font-major-mono text-white font-bold tracking-wider animate-fadeIn">
-                <span className="text-[#ff00c0]">Brin</span>
-                <span className="text-[#26bffd]">HAck</span>-2025
+                <span className="text-[#ff00c0]">Gen</span>
+                <span className="text-[#26bffd]">AI</span> Hub
               </h1>
             </header>
 
-            {/* Updated the font class for the tagline */}
             <h2
               className="text-4xl sm:text-5xl md:text-6xl font-bold text-white font-['Press_Start_2P'] leading-tight animate-fadeIn"
               style={{ fontFamily: "'Press Start 2P', cursive" }}
             >
-              Innovate Beyond <br className="hidden md:block" /> Boundaries
+              Create With <br className="hidden md:block" /> Intelligence
             </h2>
 
-            {/* For the paragraph text, use Silkscreen as Bytesized font */}
+            <h3
+              className="text-xl md:text-2xl text-gray-300 font-semibold animate-fadeIn animation-delay-200"
+              style={{ fontFamily: "'Silkscreen', monospace" }}
+            >
+              BMSIT's AI Innovation Community
+            </h3>
+
             <p
               className="text-md md:text-lg text-gray-300 max-w-md lg:max-w-none animate-fadeIn animation-delay-300"
               style={{ fontFamily: "'Silkscreen', monospace" }}
             >
-              Join Brinhack 2025, the{" "}
+              Dive into the world of{" "}
               <span
-                className="text-lg md:text-xl text-amber-400  font-['Press_Start_2P'] inline-block relative cursor-pointer 
+                className="text-lg md:text-xl text-amber-400 font-['Press_Start_2P'] inline-block relative cursor-pointer 
                 hover:text-[#26bffd] transition-colors duration-100
-                hover:animate-pulse
-                before:content-['✦'] before:absolute before:-left-2 before:opacity-0 before:hover:opacity-100
-                after:content-['✦'] after:absolute after:-right-2 after:opacity-0 after:hover:opacity-100
-                group"
+                hover:animate-pulse"
               >
-                FREE
-              </span>{" "}
-              premier{" "}
-              <span className=" text-emerald-500 text-lg">
-                Beginner Friendly
-              </span>{" "}
-              hackathon where creativity meets technology. Push the limits and
-              build the future.
+                ChatGPT
+              </span>
+              ,{" "}
+              <span className="text-emerald-500 text-lg">Stable Diffusion</span>, and
+              more. From prompt engineering to model fine-tuning, explore the future
+              of AI with hands-on projects.
               <br />
               <Link
-                href="#about-section"
+                href="#workshops"
                 className="text-purple-400 hover:text-purple-300 relative ml-1
                 after:content-[''] after:absolute after:w-full after:h-[2px] 
                 after:bg-purple-300 after:bottom-0 after:left-0
@@ -195,12 +196,11 @@ const HeroSection: React.FC<HeroSectionProps> = ({ showLogo = true }) => {
                 after:transition-transform after:duration-300
                 after:origin-left"
               >
-                Know More
+                Join Workshops
               </Link>
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 animate-fadeIn animation-delay-600 mb-10">
-              {/* For the button text - Adding Link and href */}
               <Button
                 asChild
                 variant="default"
@@ -211,11 +211,8 @@ const HeroSection: React.FC<HeroSectionProps> = ({ showLogo = true }) => {
                 px-8 py-4 tracking-wider"
                 style={{ fontFamily: "'Press Start 2P', cursive" }}
               >
-                <Link
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSfdxUBGSlcTmYMI6oRXT5PmTjvyH8nFTjWBY-VbYYzVUkKQmg/viewform?usp=header"
-                  target="_blank"
-                >
-                  &gt; Register_Now! 🚀
+                <Link href="#ai-projects">
+                  &gt; Build_AI 🤖
                 </Link>
               </Button>
               <Button
@@ -228,11 +225,8 @@ const HeroSection: React.FC<HeroSectionProps> = ({ showLogo = true }) => {
                 px-8 py-4 tracking-wider"
                 style={{ fontFamily: "'Press Start 2P', cursive" }}
               >
-                <Link
-                  href="https://www.canva.com/design/DAGkVsC9q2Y/1zCsc8iRLjbrpdrsP-eX_g/view"
-                  target="_blank"
-                >
-                  &gt; Brochure.exe 📡
+                <Link href="#learn">
+                  &gt; Learn_AI 🧠
                 </Link>
               </Button>
             </div>
@@ -260,7 +254,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ showLogo = true }) => {
                   {/* Much larger Brinhack Logo */}
                   <Image
                     src="/logo.png"
-                    alt="Brinhack Logo"
+                    alt="Gen AI Club BMSIT Logo"
                     width={400}
                     height={400}
                     className="object-contain w-full h-full"

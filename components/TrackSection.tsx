@@ -13,11 +13,11 @@ const CountdownTimer: React.FC = () => {
   });
 
   useEffect(() => {
-    const targetDate = new Date("2025-05-10T23:59:59");
+    const targetDate = new Date("2025-10-13T09:00:00").getTime();
 
     const calculateTimeRemaining = () => {
       const now = new Date();
-      const difference = targetDate.getTime() - now.getTime();
+      const difference = targetDate - now.getTime();
 
       if (difference <= 0) {
         // Registration closed
@@ -69,7 +69,7 @@ const CountdownTimer: React.FC = () => {
           className="text-[10px] sm:text-xs md:text-sm font-silkscreen text-white mb-1 sm:mb-2 
                       px-2 py-0.5 bg-purple-900/90 rounded-full border border-white/30"
         >
-          TIME REMAINING FOR HACKATHON
+          TIME REMAINING FOR INAUGURATION
         </h3>
 
         <div className="flex justify-center space-x-1 sm:space-x-2 mt-1">
@@ -140,39 +140,39 @@ const CountdownTimer: React.FC = () => {
 
 // Tracks data remains the same
 const tracks = [
-  // TOP LAYER - 3 clouds above the date
+  // TOP LAYER - 3 clouds representing core AI areas
   {
-    name: "[IoT] - Internet of Things",
+    name: "Natural Language AI",
     size: "large",
     cloudType: "c1n",
     layer: "top",
     hoverDelay: "0s",
   },
   {
-    name: "Cyber -Security",
+    name: "Computer Vision AI",
     size: "medium",
     cloudType: "c2n",
     layer: "top",
     hoverDelay: "0.3s",
   },
   {
-    name: "Blockchain",
+    name: "Generative Models",
     size: "large",
     cloudType: "c3n",
     layer: "top",
     hoverDelay: "0.6s",
   },
 
-  // BOTTOM LAYER - 2 clouds below the date
+  // BOTTOM LAYER - 2 clouds for practical aspects
   {
-    name: "Sustainability",
+    name: "AI Development",
     size: "large",
     cloudType: "c1n",
     layer: "bottom",
     hoverDelay: "0.9s",
   },
   {
-    name: "Open Innovation",
+    name: "AI Ethics & Future",
     size: "medium",
     cloudType: "c2n",
     layer: "bottom",
@@ -490,10 +490,10 @@ const TracksSection: React.FC = () => {
       <div className="container mb-12 sm:mb-16 md:mb-20 mx-auto px-4 sm:px-6 text-center relative z-10">
         {/* Section Heading - centered with increased bottom margin */}
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white font-major-mono">
-          Tracks & Themes
+          Learn • Create • Transform
         </h2>
         <p className="text-base sm:text-lg text-purple-300 mt-3 sm:mt-4 max-w-2xl mx-auto font-silkscreen">
-          Innovate, Collaborate, Elevate!
+          Mastering the Future of AI Technology
         </p>
 
         {/* Cloud Container - Now clouds are guaranteed to be below title */}
@@ -560,35 +560,7 @@ const TracksSection: React.FC = () => {
         </div>
 
         {/* Date button - centered with reduced bottom margin */}
-        <div className="mt-4 sm:mt-6 md:mt-8 z-30 relative opacity-25">
-          <button className="px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-purple-600 to-blue-500 hover:from-purple-700 hover:to-blue-600 transition-colors duration-300 text-white rounded-full backdrop-blur-sm font-silkscreen border border-white/20 shadow-lg hover:shadow-xl text-xs sm:text-sm">
-            💡[HINT] : Try Using ChatGPT for Ideas!
-          </button>
-        </div>
-
-        {/* Add the gliding plane GIF with reduced top margin and increased width */}
-        <div className="w-full flex justify-center items-center relative z-30 mb-0">
-          <div
-            className="relative cloud-float-intense w-[90%] md:w-[60%]" // 90% on mobile, 60% on medium screens and up
-            style={{
-              animationDelay: "0.5s",
-              filter: "drop-shadow(0 0 8px rgba(255, 255, 255, 0.4))",
-            }}
-          >
-            <div className="w-full relative" style={{ aspectRatio: "4/3" }}>
-              {/* Maintain aspect ratio */}
-              <Image
-                src="/popinfo.gif"
-                alt="Plane gliding in clouds"
-                fill
-                className="object-contain"
-                sizes="(max-width: 768px) 90vw, (max-width: 1200px) 75vw, 70vw" // Updated responsive size hints
-                unoptimized={true} // Important: This ensures the GIF plays
-                priority
-              />
-            </div>
-          </div>
-        </div>
+        <div className="mt-4 sm:mt-6 md:mt-8 z-30 relative opacity-25"></div>
       </div>
 
       {/* Smooth transition to next section - create curve at bottom */}

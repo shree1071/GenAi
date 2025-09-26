@@ -18,60 +18,26 @@ interface Sponsor {
 const sponsorData: Sponsor[] = [
   {
     id: "g1",
-    name: "Brindavan Group of Institutions",
+    name: "BMS Institute of Technology and Management",
     logoUrl: "/sponsors/bgilogo.png",
     websiteUrl: "https://brindavangroup.edu.in/",
     tier: "gold",
   },
 
+  
+   {
+     id: "m1",
+     name: "SOON",
+    logoUrl: "/sponsors/placeholder-logo-micro.png",
+     websiteUrl: "#",
+     tier: "gold",
+   },
   {
-    id: "s1",
-    name: "GeeksforGeeks",
-    logoUrl: "/sponsors/gfglogo.png",
-    websiteUrl: "https://www.geeksforgeeks.org/",
-    tier: "silver",
-  },
-  {
-    id: "s2",
-    name: "ETHIndia",
-    logoUrl: "/sponsors/ethindialogo.png",
-    websiteUrl: "https://ethindia.co/",
-    tier: "silver",
-  },
-  {
-    id: "s3",
-    name: "CodeCrafters.io",
-    logoUrl: "/sponsors/codecrafterslogo.png",
-    websiteUrl: "https://codecrafters.io/",
-    tier: "silver",
-  },
-  {
-    id: "b1",
-    name: "Fastdy",
-    logoUrl: "/sponsors/fastdylogo.png",
-    websiteUrl: "#",
-    tier: "bronze",
-  },
-  {
-    id: "b2",
-    name: "LI Retail",
-    logoUrl: "/sponsors/liretailslogo.png",
-    websiteUrl: "#",
-    tier: "bronze",
-  },
-  // {
-  //   id: "m1",
-  //   name: "SOON",
-  //   logoUrl: "/sponsors/placeholder-logo-micro.png",
-  //   websiteUrl: "#",
-  //   tier: "micro",
-  // },
-  // {
-  //   id: "m2",
-  //   name: "SOON",
-  //   logoUrl: "/sponsors/placeholder-logo-micro.png",
-  //   tier: "micro",
-  // },
+     id: "m2",
+     name: "SOON",
+     logoUrl: "/sponsors/placeholder-logo-micro.png",
+     tier: "micro",
+   },
 ];
 
 // Helper to group sponsors by tier
@@ -267,7 +233,7 @@ const SponsorsSection: React.FC = () => {
               Our Sponsors
             </h2>
             <p className="text-lg text-amber-200 mt-4 font-silkscreen tracking-tight drop-shadow">
-              Powering innovation at Brinhack!
+              Powering innovation 
             </p>
 
             {/* Enhanced tubelight flicker effects */}
